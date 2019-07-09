@@ -10,33 +10,34 @@ import org.powerbot.script.Tile;
 
 import java.util.concurrent.Callable;
 
-@Script.Manifest(name="Bank Logs", description="Bank logs, Draynor Village", properties="author=Justin; topic=999; client=4;")
+@Script.Manifest(name="Withdraw Logs", description="Withdraw logs from bank", properties="author=Justin; topic=999; client=4;")
 
-
-public class BankLogsDraynor extends Task {
-    final static int LOGS_ID = 1519;
+public class WithdrawLogs extends Task {
 
 
 
-    public BankLogsDraynor(ClientContext ctx) {
+    public WithdrawLogs(ClientContext ctx) {
         super(ctx);
 
     }
 
     @Override
     public boolean activate() {
-        return ctx.inventory.select().count() > 27 &&
-                ctx.bank.nearest().tile().distanceTo(ctx.players.local()) < 2;
+        System.out.println(ctx.bank.nearest().tile().distanceTo(ctx.players.local()));
+        return ctx.inventory.select().id(super.getLogsId()).count() == 0 &&
+                ctx.bank.nearest().tile().distanceTo(ctx.players.local()) < 4;
     }
 
     @Override
     public void execute() {
         if (ctx.bank.opened()) {
-            ctx.bank.deposit(LOGS_ID, 28);
+            ctx.bank.withdraw(super.getLogsId()[super.getLogsId().length - 1], 28);
+            super.incrementFires();
+            System.out.println("INCREMENTS!");
             Condition.wait(new Callable<Boolean>() {
                 @Override
                 public Boolean call() throws Exception {
-                    return ctx.inventory.select().count() == 0;
+                    return ctx.inventory.isFull();
                 }
             }, 150, 5);
         }
@@ -44,7 +45,4 @@ public class BankLogsDraynor extends Task {
             ctx.bank.open();
         }
     }
-
-
-
 }

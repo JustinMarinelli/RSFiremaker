@@ -52,7 +52,7 @@ public class Walker {
     }
 
     /**
-     * Will detect which obstacle to tackle to give Walker the ability to
+     * Will detect which obstacle to tackle to give scripts.Walker the ability to
      * traverse to the next tile.     *
      *
      * @param t The tile path being traversed.

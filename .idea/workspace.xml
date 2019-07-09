@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12bdf7fc-46db-4981-8ba6-2e065f32ed4e" name="Default Changelist" comment="" />
+    <list default="true" id="12bdf7fc-46db-4981-8ba6-2e065f32ed4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/src/scripts/Tasks/BurnLogs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/src/scripts/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/src/scripts/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/src/scripts/Tasks/BankLogsDraynor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/src/scripts/Tasks/CutTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/src/scripts/Tasks/DropLogs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/src/scripts/Tasks/Walk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/src/scripts/Tasks/WalkToDraynorBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/src/scripts/Tasks/GoToBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/src/scripts/Walker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/src/scripts/Walker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/src/scripts/Woodcutter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/src/scripts/Firemaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/scripts/Task$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/scripts/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/scripts/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/scripts/Tasks/BankLogsDraynor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/scripts/Tasks/BankLogsDraynor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/scripts/Tasks/CutTree$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/scripts/Tasks/CutTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/scripts/Tasks/DropLogs$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/scripts/Tasks/DropLogs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/scripts/Tasks/Walk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/scripts/Tasks/WalkToDraynorBank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/scripts/Woodcutter.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,34 +37,39 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Woodcutter.java">
+        <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Firemaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="229">
+              <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/BankLogsDraynor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#535#541#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/WalkToDraynorBank.java">
+        <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+            <state relative-caret-position="39">
+              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
+                <element signature="e#1293#1294#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/BurnLogs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,10 +78,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/Walk.java">
+        <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Walker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="41" column="70" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="70" />
+            <state relative-caret-position="8">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,10 +90,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/CutTree.java">
+        <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/GoToBank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="158">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,14 +102,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/DropLogs.java">
+        <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/WithdrawLogs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="38" column="71" selection-end-line="47" />
+            <state relative-caret-position="170">
+              <caret line="25" column="86" lean-forward="true" selection-start-line="25" selection-start-column="86" selection-end-line="25" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,6 +156,9 @@
       <find>1519</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -140,7 +169,6 @@
         <option value="$PROJECT_DIR$/Scripts/src/scripts/First.java" />
         <option value="$PROJECT_DIR$/Scripts/src/scripts/Tasks/Loot.java" />
         <option value="$PROJECT_DIR$/Scripts/src/scripts/Walker.java" />
-        <option value="$PROJECT_DIR$/Scripts/src/scripts/Task.java" />
         <option value="$PROJECT_DIR$/Scripts/src/scripts/Tasks/Walk.java" />
         <option value="$PROJECT_DIR$/Scripts/src/scripts/Tasks/GatherArrows.java" />
         <option value="$PROJECT_DIR$/Scripts/src/scripts/Tasks/GatherBigBones.java" />
@@ -152,10 +180,16 @@
         <option value="$PROJECT_DIR$/Scripts/src/scripts/NPCKiller.java" />
         <option value="$PROJECT_DIR$/Scripts/src/scripts/Tasks/DropLogs.java" />
         <option value="$PROJECT_DIR$/Scripts/src/scripts/Tasks/Bank.java" />
-        <option value="$PROJECT_DIR$/Scripts/src/scripts/Woodcutter.java" />
         <option value="$PROJECT_DIR$/Scripts/src/scripts/Tasks/BankLogsDraynor.java" />
         <option value="$PROJECT_DIR$/Scripts/src/scripts/Tasks/CutTree.java" />
+        <option value="$PROJECT_DIR$/Scripts/src/scripts/Woodcutter.java" />
+        <option value="$PROJECT_DIR$/Scripts/src/Firemaker.java" />
         <option value="$PROJECT_DIR$/Scripts/src/scripts/Tasks/WalkToDraynorBank.java" />
+        <option value="$PROJECT_DIR$/Scripts/src/scripts/Firemaker.java" />
+        <option value="$PROJECT_DIR$/Scripts/src/scripts/Tasks/GoToBank.java" />
+        <option value="$PROJECT_DIR$/Scripts/src/scripts/Tasks/BurnLogs.java" />
+        <option value="$PROJECT_DIR$/Scripts/src/scripts/Tasks/WithdrawLogs.java" />
+        <option value="$PROJECT_DIR$/Scripts/src/scripts/Task.java" />
       </list>
     </option>
   </component>
@@ -165,6 +199,7 @@
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -174,30 +209,30 @@
         <subPane>
           <expand>
             <path>
-              <item name="WoodcutterBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WoodcutterBot" type="462c0819:PsiDirectoryNode" />
+              <item name="FiremakingBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FiremakingBot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WoodcutterBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WoodcutterBot" type="462c0819:PsiDirectoryNode" />
+              <item name="FiremakingBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FiremakingBot" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WoodcutterBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WoodcutterBot" type="462c0819:PsiDirectoryNode" />
+              <item name="FiremakingBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FiremakingBot" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WoodcutterBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WoodcutterBot" type="462c0819:PsiDirectoryNode" />
+              <item name="FiremakingBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FiremakingBot" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WoodcutterBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WoodcutterBot" type="462c0819:PsiDirectoryNode" />
+              <item name="FiremakingBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FiremakingBot" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
@@ -207,12 +242,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RSBot" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.16431925" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -304,8 +340,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15465587" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22024292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -313,7 +350,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39928058" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -322,7 +359,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3250444" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.330373" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.330373" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -361,19 +398,25 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/BurnLogs.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TrainingScript/src/HelloWorld.java" />
-    <entry file="file://$PROJECT_DIR$/out/scripts/First.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/scripts/First.class" />
     <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/Loot.java" />
     <entry file="jar://$PROJECT_DIR$/RSBot.jar!/org/powerbot/script/Locatable.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -382,74 +425,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Walker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/GatherArrows.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/GatherLimpwurtRoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/GatherNatureRune.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/GatherLawRune.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/GatherDeathRune.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="96" column="42" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/GatherBigBones.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="78" column="36" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/First.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="49" column="5" selection-start-line="47" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/GatherArrows.java" />
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/GatherLimpwurtRoot.java" />
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/GatherNatureRune.java" />
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/GatherLawRune.java" />
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/GatherDeathRune.java" />
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/GatherBigBones.java" />
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/First.java" />
     <entry file="file://$PROJECT_DIR$/Scripts/Scripts.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -464,40 +446,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/NPCKiller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Woodcutter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/NPCKiller.java" />
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/Bank.java" />
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/Attack.java" />
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/Walk.java" />
     <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/BankLogsDraynor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/Walk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="41" column="70" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -514,21 +470,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" selection-start-line="33" selection-end-line="55" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/DropLogs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="476">
           <caret line="38" column="71" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -538,22 +482,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/Attack.java">
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/BurnLogs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        <state relative-caret-position="161">
+          <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/WalkToDraynorBank.java">
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Firemaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+        <state relative-caret-position="229">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#535#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Walker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/GoToBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Tasks/WithdrawLogs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="86" lean-forward="true" selection-start-line="25" selection-start-column="86" selection-end-line="25" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/src/scripts/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
           </folding>
         </state>
       </provider>
