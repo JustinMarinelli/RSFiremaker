@@ -21,7 +21,8 @@ public abstract class Task extends ClientAccessor {
 
     public abstract boolean activate();
     public abstract void execute();
-    int firesMade = 0;
+    int inventoriesComplete = 0;
+    int logsBurned = 0;
 
 
     public void checkRun(){
@@ -35,7 +36,7 @@ public abstract class Task extends ClientAccessor {
     }
 
     public Tile getFireSpot() {
-        if (firesMade % 2 == 0) {
+        if (inventoriesComplete % 2 == 0) {
             return fireSpot1;
         }
         else {
@@ -44,11 +45,19 @@ public abstract class Task extends ClientAccessor {
 
     }
 
-    public void incrementFires() {
-        firesMade += 1;
+    public void incrementInventories() {
+        inventoriesComplete += 1;
     }
 
-    public int getFiresMade() {
-        return firesMade;
+    public int getInventoriesComplete() {
+        return inventoriesComplete;
+    }
+
+    public void burnLogs() {
+        logsBurned += 1;
+    }
+
+    public int getLogsBurned() {
+        return logsBurned;
     }
 }

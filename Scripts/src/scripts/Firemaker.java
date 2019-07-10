@@ -7,6 +7,7 @@ import scripts.Task;
 import scripts.Tasks.*;
 
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,14 +15,28 @@ import java.util.List;
 
 public class Firemaker extends PollingScript<ClientContext> {
 
-
     List<Task> taskList = new ArrayList<Task>();
+
 
     @Override
     public void start() {
-        taskList.add(new BurnLogs(ctx));
-        taskList.add(new GoToBank(ctx));
-        taskList.add(new WithdrawLogs(ctx));
+        String userOptions[] = {"Normal logs", "Oak logs", "Willow logs", "Maple logs"};
+        String userChoice = ""+(String) JOptionPane.showInputDialog(null, "Select log type: ", "Choose logs", JOptionPane.PLAIN_MESSAGE, null, userOptions, userOptions[0]);
+
+        int logIndex = 0;
+        if (userChoice.equals("Oak logs")) {
+            logIndex = 1;
+        }
+        else if (userChoice.equals("Willow logs")) {
+            logIndex = 2;
+        }
+        else if (userChoice.equals("Maple logs")) {
+            logIndex = 3;
+        }
+
+        taskList.add(new BurnLogs(ctx, logIndex));
+        taskList.add(new GoToBank(ctx, logIndex));
+        taskList.add(new WithdrawLogs(ctx, logIndex));
     }
 
     @Override

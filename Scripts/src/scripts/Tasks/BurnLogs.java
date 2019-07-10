@@ -16,16 +16,20 @@ public class BurnLogs extends Task{
 
     private final Walker walker = new Walker(ctx);
     final static int TINDERBOX_ID = 590;
+    final static int logsToBurn = 0;
+    static int logIndex = 0;
 
 
 
-    public BurnLogs(ClientContext ctx) {
+
+    public BurnLogs(ClientContext ctx, int li) {
         super(ctx);
+        logIndex = li;
     }
     @Override
     public boolean activate() {
-        GroundItem nearestLog = ctx.groundItems.select().id(super.getLogsId()).nearest().poll();
-        return ctx.inventory.select().id(super.getLogsId()).count() > 0 &&
+        GroundItem nearestLog = ctx.groundItems.select().id(super.getLogsId()[logIndex]).nearest().poll();
+        return ctx.inventory.select().id(super.getLogsId()[logIndex]).count() > 0 &&
                 ctx.players.local().animation() == -1 && !ctx.players.local().inMotion() &&
                 ctx.players.local().tile().distanceTo(nearestLog) > 0 &&
                 ctx.bank.nearest().tile().distanceTo(ctx.players.local()) > 4;
@@ -33,7 +37,7 @@ public class BurnLogs extends Task{
 
     @Override
     public void execute() {
-        System.out.println(super.getFiresMade() + "fires");
+        System.out.println(super.getInventoriesComplete() + "fires");
 
         if (ctx.inventory.isFull()) {
 
@@ -46,24 +50,27 @@ public class BurnLogs extends Task{
             }, 50, 10);
         }
         Item tinderbox = ctx.inventory.select().id(TINDERBOX_ID).poll();
-        Item logs = ctx.inventory.select().id(super.getLogsId()).poll();
+        Item logs = ctx.inventory.select().id(super.getLogsId()[logIndex]).poll();
         tinderbox.interact("Use");
         logs.click();
+        super.burnLogs();
 
-        int[] logsID = super.getLogsId();
+        int[] logsArray = super.getLogsId();
         Tile startingLocation = ctx.players.local().tile();
+
+
         final int startingLogs = ctx.inventory.select().id(super.getLogsId()).count();
         Condition.wait(new Callable<Boolean>() {
             @Override
             public Boolean call() throws Exception {
-                return ctx.inventory.select().id(logsID).count() != startingLogs &&
+                return ctx.inventory.select().id(logsArray[logIndex]).count() != startingLogs &&
                         !ctx.players.local().inMotion() &&
                         ctx.players.local().tile() != startingLocation;
             }
         }, 50, 10);
 
         if (ctx.inventory.select().id(super.getLogsId()).count() == 0) {
-            super.incrementFires();
+            super.incrementInventories();
         }
     }
 

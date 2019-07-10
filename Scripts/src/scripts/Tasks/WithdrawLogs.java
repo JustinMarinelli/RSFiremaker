@@ -14,25 +14,26 @@ import java.util.concurrent.Callable;
 
 public class WithdrawLogs extends Task {
 
+    static int logsID = 0;
 
-
-    public WithdrawLogs(ClientContext ctx) {
+    public WithdrawLogs(ClientContext ctx, int li) {
         super(ctx);
+        logsID = li;
 
     }
 
     @Override
     public boolean activate() {
         System.out.println(ctx.bank.nearest().tile().distanceTo(ctx.players.local()));
-        return ctx.inventory.select().id(super.getLogsId()).count() == 0 &&
+        return ctx.inventory.select().id(super.getLogsId()[logsID]).count() == 0 &&
                 ctx.bank.nearest().tile().distanceTo(ctx.players.local()) < 4;
     }
 
     @Override
     public void execute() {
         if (ctx.bank.opened()) {
-            ctx.bank.withdraw(super.getLogsId()[super.getLogsId().length - 1], 28);
-            super.incrementFires();
+            ctx.bank.withdraw(super.getLogsId()[logsID], 28);
+            super.incrementInventories();
             System.out.println("INCREMENTS!");
             Condition.wait(new Callable<Boolean>() {
                 @Override
